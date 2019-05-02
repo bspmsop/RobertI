@@ -1,0 +1,35 @@
+
+<html>
+<head>
+<title>Form validation</title>
+</head>
+<style>
+	.error{
+		color:#FF0000;	
+	}
+</style>
+<body>
+<table border="1" cellpadding="0" cellspacing="0" width="35%" align="center">
+<form action="" method="post">
+<tr><td>
+FirstName:</td><td><input type="text" name="fname" placeholder="FristName"/><br></td>
+<span class="error"><?php echo $msg['fname']; ?></span></tr>
+<tr><td>
+LastName:</td><td><input type="text" name="lname" placeholder="LastName"/><br></td><span class="error"><?php echo $msg['lname']; ?></span></tr>
+<tr><td>
+Email:</td><td><input type="text" name="email" placeholder="Email" /><br></td><span class="error"><?php echo $msg['email']; ?></span></tr>
+<tr><td>
+password:</td><td><input type="text" name="password" type="password" placeholder="Password"><br></td><span class="error"><?php echo $msg['password']; ?></span></tr>
+<tr><td>
+Phone:</td><td><input type="text" name="phone" maxlength="10" placeholder="Mobilenumber"><br></td><span class="error"><?php echo $msg['mobile number']; ?></span></tr>
+<tr><td>
+Gender:</td><td><select name="gender"><option value="">select</option>
+				<option value="M">Male </option>
+                <option value="F">Female</option></select></td><span class="error"><?php echo $msg['gender']; ?></span></tr>
+ <tr><td colspan="2" align="center">               
+<input type="submit" name="submit" value="submit"></td></tr>
+</form>
+</table>
+
+</body>
+</html>
