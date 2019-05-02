@@ -1,0 +1,187 @@
+/* 
+  Localizable.strings
+  Rathe_Associates
+
+  Created by nagamani on 15/12/18.
+  Copyright © 2018 zonupTechnologies. All rights reserved.
+*/
+
+/*
+
+
+
+ var langs = {
+ 'auto': 'Automatic',
+ 'af': 'Afrikaans',
+ 'sq': 'Albanian',
+ 'am': 'Amharic',
+ 'ar': 'Arabic',
+ 'hy': 'Armenian',
+ 'az': 'Azerbaijani',
+ 'eu': 'Basque',
+ 'be': 'Belarusian',
+ 'bn': 'Bengali',
+ 'bs': 'Bosnian',
+ 'bg': 'Bulgarian',
+ 'ca': 'Catalan',
+ 'ceb': 'Cebuano',
+ 'ny': 'Chichewa',
+ 'zh-cn': 'Chinese Simplified',
+ 'zh-tw': 'Chinese Traditional',
+ 'co': 'Corsican',
+ 'hr': 'Croatian',
+ 'cs': 'Czech',
+ 'da': 'Danish',
+ 'nl': 'Dutch',
+ 'en': 'English',
+ 'eo': 'Esperanto',
+ 'et': 'Estonian',
+ 'tl': 'Filipino',
+ 'fi': 'Finnish',
+ 'fr': 'French',
+ 'fy': 'Frisian',
+ 'gl': 'Galician',
+ 'ka': 'Georgian',
+ 'de': 'German',
+ 'el': 'Greek',
+ 'gu': 'Gujarati',
+ 'ht': 'Haitian Creole',
+ 'ha': 'Hausa',
+ 'haw': 'Hawaiian',
+ 'iw': 'Hebrew',
+ 'hi': 'Hindi',
+ 'hmn': 'Hmong',
+ 'hu': 'Hungarian',
+ 'is': 'Icelandic',
+ 'ig': 'Igbo',
+ 'id': 'Indonesian',
+ 'ga': 'Irish',
+ 'it': 'Italian',
+ 'ja': 'Japanese',
+ 'jw': 'Javanese',
+ 'kn': 'Kannada',
+ 'kk': 'Kazakh',
+ 'km': 'Khmer',
+ 'ko': 'Korean',
+ 'ku': 'Kurdish (Kurmanji)',
+ 'ky': 'Kyrgyz',
+ 'lo': 'Lao',
+ 'la': 'Latin',
+ 'lv': 'Latvian',
+ 'lt': 'Lithuanian',
+ 'lb': 'Luxembourgish',
+ 'mk': 'Macedonian',
+ 'mg': 'Malagasy',
+ 'ms': 'Malay',
+ 'ml': 'Malayalam',
+ 'mt': 'Maltese',
+ 'mi': 'Maori',
+ 'mr': 'Marathi',
+ 'mn': 'Mongolian',
+ 'my': 'Myanmar (Burmese)',
+ 'ne': 'Nepali',
+ 'no': 'Norwegian',
+ 'ps': 'Pashto',
+ 'fa': 'Persian',
+ 'pl': 'Polish',
+ 'pt': 'Portuguese',
+ 'ma': 'Punjabi',
+ 'ro': 'Romanian',
+ 'ru': 'Russian',
+ 'sm': 'Samoan',
+ 'gd': 'Scots Gaelic',
+ 'sr': 'Serbian',
+ 'st': 'Sesotho',
+ 'sn': 'Shona',
+ 'sd': 'Sindhi',
+ 'si': 'Sinhala',
+ 'sk': 'Slovak',
+ 'sl': 'Slovenian',
+ 'so': 'Somali',
+ 'es': 'Spanish',
+ 'su': 'Sundanese',
+ 'sw': 'Swahili',
+ 'sv': 'Swedish',
+ 'tg': 'Tajik',
+ 'ta': 'Tamil',
+ 'te': 'Telugu',
+ 'th': 'Thai',
+ 'tr': 'Turkish',
+ 'uk': 'Ukrainian',
+ 'ur': 'Urdu',
+ 'uz': 'Uzbek',
+ 'vi': 'Vietnamese',
+ 'cy': 'Welsh',
+ 'xh': 'Xhosa',
+ 'yi': 'Yiddish',
+ 'yo': 'Yoruba',
+ 'zu': 'Zulu'
+ };
+ 
+ 
+ https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q=
+*/
+
+
+"Email" = "Email";
+"Password" = "Password";
+"SignIn" = "Sign In";
+"Forgotyourpassword?" = "Forgot your password?";
+"Building" = "Building";
+"SELECTBUILDING" = "SELECT BUILDING";
+
+
+
+
+"Search" = "Search";
+"Building" = "Building";
+"Areyousurewanttologoutfromtheapp." = "Are you sure  want to logout from the app.";
+"SIGNIN" = "SIGN IN";
+
+
+
+// Alert **************************************************
+
+"Alert!" = "Alert!";
+"PleaseSelectMechanicalRoom" = "Please Select Mechanical Room";
+"PleaseSelectBuilding" = "Please Select Building";
+"Yes" = "Yes";
+"Ok" = "Ok";
+
+"NetworkAlert!" = "Network Alert!";
+"Nonetworkconnectionwouldyouliketouseofflinedata" = "No network connection would you like to use offline data";
+"Cancel" = "Cancel";
+"Success!" = "Success!";
+"Failed!!!" =  "Failed!!!";
+
+
+
+//  menu *************************************************
+
+"Dashboard" = "Dashboard";
+"Sync" = "Sync";
+"Logout!" = "Logout!";
+
+
+
+//Super Select Building **************************************
+
+
+"SELECTBUILDING" = "SELECT BUILDING";
+"SelectBuilding" = "Select Building";
+ 
+
+
+//Mechanical Room Sign In  **************************************
+
+"MechanicalRooms" = "Mechanical Rooms";
+"SELECTMECHANICALROOM" = "SELECT MECHANICAL ROOM";
+"SelectMechanicalRoom" = "Select Mechanical Room";
+
+
+
+ //SYNC  **************************************
+ 
+"Downloadallthedocuments(MechanicalRooms,Equipments,etc..)Whentheinternetaccessisavailable" = "Download all the documents(Mechanical Rooms, Equipments, etc..) When the internet access is available";
+ 
+"Sync" = "Sync";

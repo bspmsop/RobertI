@@ -1,0 +1,1175 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180EB6DA21285516000023A6 /* EditBuildingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180EB6D921285516000023A6 /* EditBuildingViewController.swift */; };
+		1810C361212D74B4000B48E2 /* AddNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810C360212D74B4000B48E2 /* AddNotificationViewController.swift */; };
+		1826EBA8211EB296009D3CC5 /* UserManagementDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826EBA7211EB296009D3CC5 /* UserManagementDetailViewController.swift */; };
+		1826EBAC211F09BD009D3CC5 /* EquipmentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826EBAB211F09BD009D3CC5 /* EquipmentDetailViewController.swift */; };
+		184488E021213E16004877FF /* EditAssetEquipmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184488DF21213E16004877FF /* EditAssetEquipmentViewController.swift */; };
+		184C2E44212ACF7600B99C1F /* EditNewMechanicalRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C2E43212ACF7600B99C1F /* EditNewMechanicalRoomViewController.swift */; };
+		184C2E46212AE94800B99C1F /* VendorRepairViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C2E45212AE94800B99C1F /* VendorRepairViewController.swift */; };
+		185403C720AE865A007F01D3 /* UserListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185403C620AE865A007F01D3 /* UserListingViewController.swift */; };
+		185403C920AE99C5007F01D3 /* AddEquipmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185403C820AE99C5007F01D3 /* AddEquipmentViewController.swift */; };
+		185AAAC720AD8F9300324AEE /* MechanicalRoomListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185AAAC620AD8F9300324AEE /* MechanicalRoomListingViewController.swift */; };
+		185AAAC920AD952400324AEE /* AddMechanicalRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185AAAC820AD952400324AEE /* AddMechanicalRoomViewController.swift */; };
+		185EA51E20A940ED00884625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EA51D20A940ED00884625 /* AppDelegate.swift */; };
+		185EA52320A940ED00884625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185EA52120A940ED00884625 /* Main.storyboard */; };
+		185EA52820A940F600884625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185EA52620A940F600884625 /* LaunchScreen.storyboard */; };
+		185EA53020A956F800884625 /* Rathe_Associates_Xib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185EA52F20A956F700884625 /* Rathe_Associates_Xib.xib */; };
+		185EA53420A9583700884625 /* Rathe_AssociatesXibClassFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EA53320A9583700884625 /* Rathe_AssociatesXibClassFiles.swift */; };
+		185EA53C20A9694500884625 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EA53B20A9694400884625 /* RegistrationViewController.swift */; };
+		185EA54020A9783A00884625 /* ThankUViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EA53F20A9783A00884625 /* ThankUViewController.swift */; };
+		1863946420A9BEE30050AE93 /* SignInLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863946320A9BEE20050AE93 /* SignInLogViewController.swift */; };
+		1863946620A9C3DF0050AE93 /* InspectionSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863946520A9C3DF0050AE93 /* InspectionSheetViewController.swift */; };
+		1867657420C80D27007F0E6C /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1867657320C80D26007F0E6C /* AVKit.framework */; };
+		1867657620C80D36007F0E6C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1867657520C80D35007F0E6C /* AVFoundation.framework */; };
+		186BA16520B6E71E001ABA00 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186BA16420B6E71E001ABA00 /* StoreKit.framework */; };
+		186C65A120B049650004250D /* ApisClass_Rath_Associates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186C65A020B049650004250D /* ApisClass_Rath_Associates.swift */; };
+		186EC40420D915300090CB17 /* CustomInspectionSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EC40320D9152F0090CB17 /* CustomInspectionSheetViewController.swift */; };
+		186EC40620D929540090CB17 /* AddCustomInspectionSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EC40520D929540090CB17 /* AddCustomInspectionSheetViewController.swift */; };
+		186F234420BC39B700B3EDF2 /* SyncYourDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F234320BC39B700B3EDF2 /* SyncYourDataViewController.swift */; };
+		1870B96020AA9E2A009EB200 /* BuildingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870B95F20AA9E2A009EB200 /* BuildingListViewController.swift */; };
+		1870B96220AAA948009EB200 /* AddInspectionSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870B96120AAA947009EB200 /* AddInspectionSheetViewController.swift */; };
+		1870B96620AAB9E0009EB200 /* AddRepairViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870B96520AAB9E0009EB200 /* AddRepairViewController.swift */; };
+		1870B96820AABB1A009EB200 /* GlobalFile_RathAssociates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870B96720AABB1A009EB200 /* GlobalFile_RathAssociates.swift */; };
+		1870B96F20AADB82009EB200 /* AddSubScriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870B96E20AADB82009EB200 /* AddSubScriptionViewController.swift */; };
+		1870B97520AAECAC009EB200 /* SubscriptionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870B97420AAECAB009EB200 /* SubscriptionListViewController.swift */; };
+		1870B97720AAF3DB009EB200 /* AddBuildingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870B97620AAF3DB009EB200 /* AddBuildingViewController.swift */; };
+		1870B97920AAF8D3009EB200 /* EquipmetManagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870B97820AAF8D3009EB200 /* EquipmetManagementViewController.swift */; };
+		1870B97B20AAFE3F009EB200 /* AddUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870B97A20AAFE3F009EB200 /* AddUserViewController.swift */; };
+		1870B97D20AB0149009EB200 /* DocumentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870B97C20AB0149009EB200 /* DocumentListViewController.swift */; };
+		187E815820B847860071D38E /* libPrinterSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 187E815720B847850071D38E /* libPrinterSDK.a */; };
+		1895A195211C056F00792DCD /* EditMechanicalRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895A194211C056F00792DCD /* EditMechanicalRoomViewController.swift */; };
+		1895A197211C591E00792DCD /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895A196211C591E00792DCD /* NotificationViewController.swift */; };
+		1895A19A211C613300792DCD /* EqipmentTestReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895A199211C613300792DCD /* EqipmentTestReportViewController.swift */; };
+		1895A19C211C638300792DCD /* InspectionReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895A19B211C638300792DCD /* InspectionReportViewController.swift */; };
+		1895A19E211C63EA00792DCD /* RepairNCostReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895A19D211C63EA00792DCD /* RepairNCostReportViewController.swift */; };
+		18999886219AACB1006C52C0 /* DocumentCellsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18999885219AACB0006C52C0 /* DocumentCellsTableViewCell.swift */; };
+		18999888219AB384006C52C0 /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18999887219AB384006C52C0 /* DocumentViewController.swift */; };
+		18A3E83920CA5D0000246D2A /* AuditReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3E83820CA5D0000246D2A /* AuditReportViewController.swift */; };
+		18A97F79212C2D7500967B56 /* CompaniesListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A97F78212C2D7400967B56 /* CompaniesListingViewController.swift */; };
+		18A97F7B212C358100967B56 /* AddCompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A97F7A212C358000967B56 /* AddCompanyViewController.swift */; };
+		18C57981213673CB00FAE761 /* SyncDataNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C57980213673CA00FAE761 /* SyncDataNewViewController.swift */; };
+		18DF3C2B20A9954A00BFD6A9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF3C2A20A9954A00BFD6A9 /* MenuViewController.swift */; };
+		18DF3C2D20A995F800BFD6A9 /* SubMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DF3C2C20A995F800BFD6A9 /* SubMain.storyboard */; };
+		18F8BE2F211858F7003A7965 /* BuildingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F8BE2E211858F7003A7965 /* BuildingDetailViewController.swift */; };
+		18F8BE312118762C003A7965 /* EquipmentTestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F8BE302118762B003A7965 /* EquipmentTestsViewController.swift */; };
+		18F8BE332118795A003A7965 /* EquipmentTestDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F8BE322118795A003A7965 /* EquipmentTestDetailViewController.swift */; };
+		18F8BE552118A54C003A7965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185EA52420A940F600884625 /* Assets.xcassets */; };
+		18FF7CA1211B181E000313DD /* MechanicalRoomDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF7CA0211B181C000313DD /* MechanicalRoomDetailViewController.swift */; };
+		18FF7CA4211B1B4D000313DD /* Rathe_Associates_Xibs_II.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18FF7CA3211B1B4D000313DD /* Rathe_Associates_Xibs_II.xib */; };
+		2558B49D54BC0D0B70B6B1A5 /* Pods_Rathe_Associates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A302ABF5DB105C4C6382D70 /* Pods_Rathe_Associates.framework */; };
+		D607882022005F4C00162AEC /* AddEquipmentTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D607881F22005F4B00162AEC /* AddEquipmentTestViewController.swift */; };
+		D607882222005F9800162AEC /* EditEquipmentTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D607882122005F9800162AEC /* EditEquipmentTestViewController.swift */; };
+		D60B6A342182D86600E6D81F /* EditCBMechanicalRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B6A332182D86500E6D81F /* EditCBMechanicalRoomViewController.swift */; };
+		D60B6A362182E23B00E6D81F /* NotificationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B6A352182E23B00E6D81F /* NotificationDetailViewController.swift */; };
+		D60B6A382182F35700E6D81F /* SignInLogReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B6A372182F35700E6D81F /* SignInLogReportViewController.swift */; };
+		D60B6A3A218329C700E6D81F /* EditSubscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B6A39218329C600E6D81F /* EditSubscriptionViewController.swift */; };
+		D60B6A3C21832A6200E6D81F /* SubscriptionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B6A3B21832A6200E6D81F /* SubscriptionDetailViewController.swift */; };
+		D61CB906217EE352003D2F55 /* WarningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61CB905217EE352003D2F55 /* WarningViewController.swift */; };
+		D61CB908217F3BA9003D2F55 /* EditCustomInspectionSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61CB907217F3BA9003D2F55 /* EditCustomInspectionSheetViewController.swift */; };
+		D61CB90A217F422C003D2F55 /* DetailCustomInspectionSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61CB909217F422C003D2F55 /* DetailCustomInspectionSheetViewController.swift */; };
+		D61CB90C217F4ADC003D2F55 /* InitialPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61CB90B217F4ADC003D2F55 /* InitialPreviewController.swift */; };
+		D61DD5362248A0BF00318121 /* BuildingDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61DD5352248A0BF00318121 /* BuildingDocumentViewController.swift */; };
+		D61DD5382248A16A00318121 /* CBMechanicalScanEquipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61DD5372248A16A00318121 /* CBMechanicalScanEquipViewController.swift */; };
+		D62695AA219FF591007293FD /* ScanQRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62695A9219FF591007293FD /* ScanQRCodeReaderViewController.swift */; };
+		D633D24E21807DBE00BA3533 /* super.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D633D24D21807DBE00BA3533 /* super.storyboard */; };
+		D633D25021807FB300BA3533 /* SuperDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D633D24F21807FB300BA3533 /* SuperDashboardViewController.swift */; };
+		D633D2522180800400BA3533 /* SuperMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D633D2512180800400BA3533 /* SuperMenuViewController.swift */; };
+		D633D2542180A5FE00BA3533 /* EditCompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D633D2532180A5FE00BA3533 /* EditCompanyViewController.swift */; };
+		D63673E0224B36E100803BC4 /* lsquare.png in Resources */ = {isa = PBXBuildFile; fileRef = D63673DF224B36CF00803BC4 /* lsquare.png */; };
+		D64A1C27227045A400EAECC6 /* SyncLoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A1C26227045A300EAECC6 /* SyncLoaderViewController.swift */; };
+		D64AAECA21C38E59003A5ADC /* popupdropdown.png in Resources */ = {isa = PBXBuildFile; fileRef = D64AAEC921C38E54003A5ADC /* popupdropdown.png */; };
+		D65043FC2181D268004D0F6F /* DetailCBMechanicalRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65043FB2181D268004D0F6F /* DetailCBMechanicalRoomViewController.swift */; };
+		D65B6EA321C8C8E600463A12 /* sign.png in Resources */ = {isa = PBXBuildFile; fileRef = D65B6E9C21C8C89E00463A12 /* sign.png */; };
+		D65B6EA421C8C8E600463A12 /* effic.png in Resources */ = {isa = PBXBuildFile; fileRef = D65B6E9D21C8C8A800463A12 /* effic.png */; };
+		D65B6EA521C8C8E600463A12 /* notification.png in Resources */ = {isa = PBXBuildFile; fileRef = D65B6E9E21C8C8B300463A12 /* notification.png */; };
+		D65B6EA621C8C8E600463A12 /* repair.png in Resources */ = {isa = PBXBuildFile; fileRef = D65B6E9F21C8C8C100463A12 /* repair.png */; };
+		D65B6EA721C8C8E600463A12 /* audit.png in Resources */ = {isa = PBXBuildFile; fileRef = D65B6EA021C8C8CE00463A12 /* audit.png */; };
+		D65B6EA821C8C8E600463A12 /* equiptest.png in Resources */ = {isa = PBXBuildFile; fileRef = D65B6EA121C8C8E400463A12 /* equiptest.png */; };
+		D65B6EA921C8C8E600463A12 /* audit2.png in Resources */ = {isa = PBXBuildFile; fileRef = D65B6EA221C8C8E500463A12 /* audit2.png */; };
+		D65B6EB021C9287600463A12 /* user2.png in Resources */ = {isa = PBXBuildFile; fileRef = D65B6EAC21C9286900463A12 /* user2.png */; };
+		D65B6EB121C9287600463A12 /* delete2.png in Resources */ = {isa = PBXBuildFile; fileRef = D65B6EAD21C9287100463A12 /* delete2.png */; };
+		D66B7B1021E38B0F008D4390 /* doc_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D66B7B0F21E38B0E008D4390 /* doc_icon.jpg */; };
+		D67423ED217AF45100A479A5 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67423EC217AF45100A479A5 /* ForgotPasswordViewController.swift */; };
+		D67423F0217B158300A479A5 /* icons8-sort-down-filled-100-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D67423EE217B157B00A479A5 /* icons8-sort-down-filled-100-2.png */; };
+		D67423F1217B158300A479A5 /* icons8-back-64.png in Resources */ = {isa = PBXBuildFile; fileRef = D67423EF217B157C00A479A5 /* icons8-back-64.png */; };
+		D67423F3217B15D900A479A5 /* icons8-chevron-up-60-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D67423F2217B15D100A479A5 /* icons8-chevron-up-60-2.png */; };
+		D687C46B217D8D760082E2C2 /* MechanicalRoomSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D687C46A217D8D760082E2C2 /* MechanicalRoomSignInViewController.swift */; };
+		D687C46F217D8FB20082E2C2 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D687C46E217D8FB20082E2C2 /* SignInViewController.swift */; };
+		D687C471217D93E60082E2C2 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D687C470217D93E60082E2C2 /* DashboardViewController.swift */; };
+		D687C473217D97AF0082E2C2 /* MechanicalRoomDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D687C472217D97AF0082E2C2 /* MechanicalRoomDashboardViewController.swift */; };
+		D687C475217DAA160082E2C2 /* EquipmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D687C474217DAA150082E2C2 /* EquipmentViewController.swift */; };
+		D687C47B217DEF5E0082E2C2 /* profile1.png in Resources */ = {isa = PBXBuildFile; fileRef = D687C476217DEEA90082E2C2 /* profile1.png */; };
+		D687C47E217DEF5E0082E2C2 /* uparrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D687C479217DEF550082E2C2 /* uparrow.png */; };
+		D687C481217DEF8D0082E2C2 /* note1.png in Resources */ = {isa = PBXBuildFile; fileRef = D687C480217DEF820082E2C2 /* note1.png */; };
+		D687C485217DF4A00082E2C2 /* check-box.png in Resources */ = {isa = PBXBuildFile; fileRef = D687C484217DF4950082E2C2 /* check-box.png */; };
+		D6890E4121B95157000A240F /* PEPhotoCropEditor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D6890E4021B95149000A240F /* PEPhotoCropEditor.bundle */; };
+		D6954C842175CCB7000064FC /* EfficentyTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6954C832175CCB7000064FC /* EfficentyTestViewController.swift */; };
+		D6954C862176027C000064FC /* BoilerRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6954C852176027C000064FC /* BoilerRoomViewController.swift */; };
+		D695EED321A03D81007EC717 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = D695EED221A03D7E007EC717 /* square.png */; };
+		D69BF33821A90EB600325E1D /* upscroll.png in Resources */ = {isa = PBXBuildFile; fileRef = D69BF33621A90EB200325E1D /* upscroll.png */; };
+		D69BF33B21A9163F00325E1D /* downscroll.png in Resources */ = {isa = PBXBuildFile; fileRef = D69BF33921A9163A00325E1D /* downscroll.png */; };
+		D69BF33E21A9185600325E1D /* upssscroll.png in Resources */ = {isa = PBXBuildFile; fileRef = D69BF33D21A9185300325E1D /* upssscroll.png */; };
+		D6A49B3F2271C8D400003FBA /* FMDatabase2.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = D6A49B3E2271C8D200003FBA /* FMDatabase2.sqlite */; };
+		D6B3EC582188176B0061DC02 /* SaveAsPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B3EC572188176B0061DC02 /* SaveAsPopupViewController.swift */; };
+		D6B5FD4921B7E8BF00331DE5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B5FD4821B7E8BF00331DE5 /* MobileCoreServices.framework */; };
+		D6BA21CC219D9D2F0004E726 /* redv.png in Resources */ = {isa = PBXBuildFile; fileRef = D6BA21C8219D9D1C0004E726 /* redv.png */; };
+		D6BA21CD219D9D2F0004E726 /* gray.png in Resources */ = {isa = PBXBuildFile; fileRef = D6BA21C9219D9D1E0004E726 /* gray.png */; };
+		D6BA21CE219D9D2F0004E726 /* greenv.png in Resources */ = {isa = PBXBuildFile; fileRef = D6BA21CA219D9D280004E726 /* greenv.png */; };
+		D6BA21CF219D9D2F0004E726 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = D6BA21CB219D9D2B0004E726 /* yellow.png */; };
+		D6BC69A12191C09E008B106F /* emptycheck.png in Resources */ = {isa = PBXBuildFile; fileRef = D6BC69A02191C09D008B106F /* emptycheck.png */; };
+		D6BF193021C516F500AFA12C /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BF192F21C516F500AFA12C /* LanguageViewController.swift */; };
+		D6BF193221C5235700AFA12C /* company1.png in Resources */ = {isa = PBXBuildFile; fileRef = D6BF193121C5235400AFA12C /* company1.png */; };
+		D6C0E7EE2252128C00204DF0 /* CBInspectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C0E7ED2252128C00204DF0 /* CBInspectionViewController.swift */; };
+		D6C2604D217720930068C8E8 /* VendorRepairListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C2604C217720930068C8E8 /* VendorRepairListViewController.swift */; };
+		D6C26054217749540068C8E8 /* NewDocumentLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C26053217749540068C8E8 /* NewDocumentLibraryViewController.swift */; };
+		D6D1CBEB218DD07B00FCA05A /* downnarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D1CBEA218DD07B00FCA05A /* downnarrow.png */; };
+		D6E52DEE21E7039A00ECD361 /* 360bets.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E52DED21E7039900ECD361 /* 360bets.png */; };
+		D6E52DF021E7044900ECD361 /* mybetslogin.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E52DEF21E7044600ECD361 /* mybetslogin.png */; };
+		D6E52DF221E712AC00ECD361 /* new360bets.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E52DF121E712AA00ECD361 /* new360bets.png */; };
+		D6E7485621A7D20F00C6D63D /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E7485521A7D20F00C6D63D /* libsqlite3.0.tbd */; };
+		D6E7485821A7D2A200C6D63D /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E7485721A7D2A200C6D63D /* FMDB.framework */; };
+		D6E9698A226EEC9A0003DAE8 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E96989226EEC9A0003DAE8 /* MyProfileViewController.swift */; };
+		D6EFEEA5219BD70D00185134 /* SuperSelectBuildingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EFEEA4219BD70D00185134 /* SuperSelectBuildingViewController.swift */; };
+		D6EFEEA7219BFB8200185134 /* SuperDefaultInspectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EFEEA6219BFB8100185134 /* SuperDefaultInspectionViewController.swift */; };
+		D6EFEEAA219C295000185134 /* graycheckbox1.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EFEEA8219C294800185134 /* graycheckbox1.png */; };
+		D6EFEEAB219C295000185134 /* graycheckedBox.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EFEEA9219C294F00185134 /* graycheckedBox.png */; };
+		D6EFEEAD219C4F2500185134 /* SuperDefaultEfficiencyTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EFEEAC219C4F2400185134 /* SuperDefaultEfficiencyTestViewController.swift */; };
+		D6F3B10921E36BC800AF8C35 /* dl1.png in Resources */ = {isa = PBXBuildFile; fileRef = D6F3B10621E36BC600AF8C35 /* dl1.png */; };
+		D6F3B10A21E36BC800AF8C35 /* dl3.png in Resources */ = {isa = PBXBuildFile; fileRef = D6F3B10721E36BC700AF8C35 /* dl3.png */; };
+		D6F3B10B21E36BC800AF8C35 /* dl2.png in Resources */ = {isa = PBXBuildFile; fileRef = D6F3B10821E36BC700AF8C35 /* dl2.png */; };
+		D6F410BE218442BD001FDF03 /* EditUserManagemetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F410BD218442BC001FDF03 /* EditUserManagemetViewController.swift */; };
+		D6F410C221845548001FDF03 /* view2.png in Resources */ = {isa = PBXBuildFile; fileRef = D6F410BF21845531001FDF03 /* view2.png */; };
+		D6F410C321845548001FDF03 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = D6F410C021845531001FDF03 /* setting.png */; };
+		D6F410C421845548001FDF03 /* edit2.png in Resources */ = {isa = PBXBuildFile; fileRef = D6F410C121845542001FDF03 /* edit2.png */; };
+		D6F62B6621817B8A00997BC4 /* CompanyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F62B6521817B8A00997BC4 /* CompanyDetailViewController.swift */; };
+		D6F62B6821819B7F00997BC4 /* CBMechanicalRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F62B6721819B7F00997BC4 /* CBMechanicalRoomViewController.swift */; };
+		D6F62B6A2181A3DB00997BC4 /* AddCBMechanicalRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F62B692181A3DB00997BC4 /* AddCBMechanicalRoomViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180EB6D921285516000023A6 /* EditBuildingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBuildingViewController.swift; sourceTree = "<group>"; };
+		1810C360212D74B4000B48E2 /* AddNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNotificationViewController.swift; sourceTree = "<group>"; };
+		1826EBA7211EB296009D3CC5 /* UserManagementDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManagementDetailViewController.swift; sourceTree = "<group>"; };
+		1826EBAB211F09BD009D3CC5 /* EquipmentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentDetailViewController.swift; sourceTree = "<group>"; };
+		184488DF21213E16004877FF /* EditAssetEquipmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAssetEquipmentViewController.swift; sourceTree = "<group>"; };
+		184C2E43212ACF7600B99C1F /* EditNewMechanicalRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNewMechanicalRoomViewController.swift; sourceTree = "<group>"; };
+		184C2E45212AE94800B99C1F /* VendorRepairViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorRepairViewController.swift; sourceTree = "<group>"; };
+		185403C620AE865A007F01D3 /* UserListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListingViewController.swift; sourceTree = "<group>"; };
+		185403C820AE99C5007F01D3 /* AddEquipmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEquipmentViewController.swift; sourceTree = "<group>"; };
+		185AAAC620AD8F9300324AEE /* MechanicalRoomListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MechanicalRoomListingViewController.swift; sourceTree = "<group>"; };
+		185AAAC820AD952400324AEE /* AddMechanicalRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMechanicalRoomViewController.swift; sourceTree = "<group>"; };
+		185EA51A20A940ED00884625 /* MY BETS 360.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MY BETS 360.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		185EA51D20A940ED00884625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		185EA52220A940ED00884625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		185EA52420A940F600884625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		185EA52720A940F600884625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		185EA52920A940F600884625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185EA52F20A956F700884625 /* Rathe_Associates_Xib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Rathe_Associates_Xib.xib; sourceTree = "<group>"; };
+		185EA53320A9583700884625 /* Rathe_AssociatesXibClassFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rathe_AssociatesXibClassFiles.swift; sourceTree = "<group>"; };
+		185EA53B20A9694400884625 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		185EA53F20A9783A00884625 /* ThankUViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankUViewController.swift; sourceTree = "<group>"; };
+		1863946320A9BEE20050AE93 /* SignInLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInLogViewController.swift; sourceTree = "<group>"; };
+		1863946520A9C3DF0050AE93 /* InspectionSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectionSheetViewController.swift; sourceTree = "<group>"; };
+		1867657320C80D26007F0E6C /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		1867657520C80D35007F0E6C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		186BA16320B6E70E001ABA00 /* Rathe_Associates.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rathe_Associates.entitlements; sourceTree = "<group>"; };
+		186BA16420B6E71E001ABA00 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		186C65A020B049650004250D /* ApisClass_Rath_Associates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApisClass_Rath_Associates.swift; sourceTree = "<group>"; };
+		186EC40320D9152F0090CB17 /* CustomInspectionSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInspectionSheetViewController.swift; sourceTree = "<group>"; };
+		186EC40520D929540090CB17 /* AddCustomInspectionSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCustomInspectionSheetViewController.swift; sourceTree = "<group>"; };
+		186F234320BC39B700B3EDF2 /* SyncYourDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncYourDataViewController.swift; sourceTree = "<group>"; };
+		1870B95F20AA9E2A009EB200 /* BuildingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingListViewController.swift; sourceTree = "<group>"; };
+		1870B96120AAA947009EB200 /* AddInspectionSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInspectionSheetViewController.swift; sourceTree = "<group>"; };
+		1870B96520AAB9E0009EB200 /* AddRepairViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRepairViewController.swift; sourceTree = "<group>"; };
+		1870B96720AABB1A009EB200 /* GlobalFile_RathAssociates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalFile_RathAssociates.swift; sourceTree = "<group>"; };
+		1870B96E20AADB82009EB200 /* AddSubScriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSubScriptionViewController.swift; sourceTree = "<group>"; };
+		1870B97420AAECAB009EB200 /* SubscriptionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionListViewController.swift; sourceTree = "<group>"; };
+		1870B97620AAF3DB009EB200 /* AddBuildingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBuildingViewController.swift; sourceTree = "<group>"; };
+		1870B97820AAF8D3009EB200 /* EquipmetManagementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmetManagementViewController.swift; sourceTree = "<group>"; };
+		1870B97A20AAFE3F009EB200 /* AddUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewController.swift; sourceTree = "<group>"; };
+		1870B97C20AB0149009EB200 /* DocumentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentListViewController.swift; sourceTree = "<group>"; };
+		187E815520B843130071D38E /* Rathe_Associates_BridgingFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rathe_Associates_BridgingFile.h; sourceTree = "<group>"; };
+		187E815620B847780071D38E /* PrinterSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterSDK.h; sourceTree = "<group>"; };
+		187E815720B847850071D38E /* libPrinterSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPrinterSDK.a; sourceTree = "<group>"; };
+		1895A194211C056F00792DCD /* EditMechanicalRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMechanicalRoomViewController.swift; sourceTree = "<group>"; };
+		1895A196211C591E00792DCD /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		1895A199211C613300792DCD /* EqipmentTestReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqipmentTestReportViewController.swift; sourceTree = "<group>"; };
+		1895A19B211C638300792DCD /* InspectionReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectionReportViewController.swift; sourceTree = "<group>"; };
+		1895A19D211C63EA00792DCD /* RepairNCostReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepairNCostReportViewController.swift; sourceTree = "<group>"; };
+		18999885219AACB0006C52C0 /* DocumentCellsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentCellsTableViewCell.swift; sourceTree = "<group>"; };
+		18999887219AB384006C52C0 /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
+		18A3E83820CA5D0000246D2A /* AuditReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditReportViewController.swift; sourceTree = "<group>"; };
+		18A97F78212C2D7400967B56 /* CompaniesListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesListingViewController.swift; sourceTree = "<group>"; };
+		18A97F7A212C358000967B56 /* AddCompanyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCompanyViewController.swift; sourceTree = "<group>"; };
+		18C57980213673CA00FAE761 /* SyncDataNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncDataNewViewController.swift; sourceTree = "<group>"; };
+		18DF3C2A20A9954A00BFD6A9 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		18DF3C2C20A995F800BFD6A9 /* SubMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SubMain.storyboard; sourceTree = "<group>"; };
+		18F8BE2E211858F7003A7965 /* BuildingDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingDetailViewController.swift; sourceTree = "<group>"; };
+		18F8BE302118762B003A7965 /* EquipmentTestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentTestsViewController.swift; sourceTree = "<group>"; };
+		18F8BE322118795A003A7965 /* EquipmentTestDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentTestDetailViewController.swift; sourceTree = "<group>"; };
+		18FF7CA0211B181C000313DD /* MechanicalRoomDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MechanicalRoomDetailViewController.swift; sourceTree = "<group>"; };
+		18FF7CA3211B1B4D000313DD /* Rathe_Associates_Xibs_II.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Rathe_Associates_Xibs_II.xib; sourceTree = "<group>"; };
+		2A302ABF5DB105C4C6382D70 /* Pods_Rathe_Associates.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rathe_Associates.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		332FC4511239A00F15F4AB59 /* Pods-Rathe_Associates.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rathe_Associates.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rathe_Associates/Pods-Rathe_Associates.debug.xcconfig"; sourceTree = "<group>"; };
+		52BE7945AD4A0DA224E4F9CF /* Pods-Rathe_Associates.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rathe_Associates.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rathe_Associates/Pods-Rathe_Associates.release.xcconfig"; sourceTree = "<group>"; };
+		D607881F22005F4B00162AEC /* AddEquipmentTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEquipmentTestViewController.swift; sourceTree = "<group>"; };
+		D607882122005F9800162AEC /* EditEquipmentTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEquipmentTestViewController.swift; sourceTree = "<group>"; };
+		D60B6A332182D86500E6D81F /* EditCBMechanicalRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCBMechanicalRoomViewController.swift; sourceTree = "<group>"; };
+		D60B6A352182E23B00E6D81F /* NotificationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDetailViewController.swift; sourceTree = "<group>"; };
+		D60B6A372182F35700E6D81F /* SignInLogReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInLogReportViewController.swift; sourceTree = "<group>"; };
+		D60B6A39218329C600E6D81F /* EditSubscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSubscriptionViewController.swift; sourceTree = "<group>"; };
+		D60B6A3B21832A6200E6D81F /* SubscriptionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionDetailViewController.swift; sourceTree = "<group>"; };
+		D61CB905217EE352003D2F55 /* WarningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningViewController.swift; sourceTree = "<group>"; };
+		D61CB907217F3BA9003D2F55 /* EditCustomInspectionSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCustomInspectionSheetViewController.swift; sourceTree = "<group>"; };
+		D61CB909217F422C003D2F55 /* DetailCustomInspectionSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCustomInspectionSheetViewController.swift; sourceTree = "<group>"; };
+		D61CB90B217F4ADC003D2F55 /* InitialPreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialPreviewController.swift; sourceTree = "<group>"; };
+		D61DD5352248A0BF00318121 /* BuildingDocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingDocumentViewController.swift; sourceTree = "<group>"; };
+		D61DD5372248A16A00318121 /* CBMechanicalScanEquipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBMechanicalScanEquipViewController.swift; sourceTree = "<group>"; };
+		D62695A9219FF591007293FD /* ScanQRCodeReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRCodeReaderViewController.swift; sourceTree = "<group>"; };
+		D633D24D21807DBE00BA3533 /* super.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = super.storyboard; sourceTree = "<group>"; };
+		D633D24F21807FB300BA3533 /* SuperDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperDashboardViewController.swift; sourceTree = "<group>"; };
+		D633D2512180800400BA3533 /* SuperMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMenuViewController.swift; sourceTree = "<group>"; };
+		D633D2532180A5FE00BA3533 /* EditCompanyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCompanyViewController.swift; sourceTree = "<group>"; };
+		D63673DF224B36CF00803BC4 /* lsquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lsquare.png; sourceTree = "<group>"; };
+		D64A1C26227045A300EAECC6 /* SyncLoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncLoaderViewController.swift; sourceTree = "<group>"; };
+		D64AAEC921C38E54003A5ADC /* popupdropdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popupdropdown.png; sourceTree = "<group>"; };
+		D65043FB2181D268004D0F6F /* DetailCBMechanicalRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCBMechanicalRoomViewController.swift; sourceTree = "<group>"; };
+		D65B6E9C21C8C89E00463A12 /* sign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sign.png; sourceTree = "<group>"; };
+		D65B6E9D21C8C8A800463A12 /* effic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = effic.png; sourceTree = "<group>"; };
+		D65B6E9E21C8C8B300463A12 /* notification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notification.png; sourceTree = "<group>"; };
+		D65B6E9F21C8C8C100463A12 /* repair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = repair.png; sourceTree = "<group>"; };
+		D65B6EA021C8C8CE00463A12 /* audit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audit.png; sourceTree = "<group>"; };
+		D65B6EA121C8C8E400463A12 /* equiptest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = equiptest.png; sourceTree = "<group>"; };
+		D65B6EA221C8C8E500463A12 /* audit2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audit2.png; sourceTree = "<group>"; };
+		D65B6EAC21C9286900463A12 /* user2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user2.png; sourceTree = "<group>"; };
+		D65B6EAD21C9287100463A12 /* delete2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete2.png; sourceTree = "<group>"; };
+		D66B7B0F21E38B0E008D4390 /* doc_icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doc_icon.jpg; sourceTree = "<group>"; };
+		D67423EC217AF45100A479A5 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		D67423EE217B157B00A479A5 /* icons8-sort-down-filled-100-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-sort-down-filled-100-2.png"; sourceTree = "<group>"; };
+		D67423EF217B157C00A479A5 /* icons8-back-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-back-64.png"; sourceTree = "<group>"; };
+		D67423F2217B15D100A479A5 /* icons8-chevron-up-60-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-chevron-up-60-2.png"; sourceTree = "<group>"; };
+		D687C46A217D8D760082E2C2 /* MechanicalRoomSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MechanicalRoomSignInViewController.swift; sourceTree = "<group>"; };
+		D687C46E217D8FB20082E2C2 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D687C470217D93E60082E2C2 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		D687C472217D97AF0082E2C2 /* MechanicalRoomDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MechanicalRoomDashboardViewController.swift; sourceTree = "<group>"; };
+		D687C474217DAA150082E2C2 /* EquipmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentViewController.swift; sourceTree = "<group>"; };
+		D687C476217DEEA90082E2C2 /* profile1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile1.png; sourceTree = "<group>"; };
+		D687C479217DEF550082E2C2 /* uparrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uparrow.png; sourceTree = "<group>"; };
+		D687C480217DEF820082E2C2 /* note1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note1.png; sourceTree = "<group>"; };
+		D687C484217DF4950082E2C2 /* check-box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-box.png"; sourceTree = "<group>"; };
+		D6890E4021B95149000A240F /* PEPhotoCropEditor.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PEPhotoCropEditor.bundle; sourceTree = "<group>"; };
+		D6954C832175CCB7000064FC /* EfficentyTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EfficentyTestViewController.swift; sourceTree = "<group>"; };
+		D6954C852176027C000064FC /* BoilerRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoilerRoomViewController.swift; sourceTree = "<group>"; };
+		D695EED221A03D7E007EC717 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
+		D69BF33621A90EB200325E1D /* upscroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upscroll.png; sourceTree = "<group>"; };
+		D69BF33921A9163A00325E1D /* downscroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downscroll.png; sourceTree = "<group>"; };
+		D69BF33D21A9185300325E1D /* upssscroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upssscroll.png; sourceTree = "<group>"; };
+		D6A49B3E2271C8D200003FBA /* FMDatabase2.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = FMDatabase2.sqlite; sourceTree = "<group>"; };
+		D6B3EC572188176B0061DC02 /* SaveAsPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveAsPopupViewController.swift; sourceTree = "<group>"; };
+		D6B5FD4821B7E8BF00331DE5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D6BA21C8219D9D1C0004E726 /* redv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redv.png; sourceTree = "<group>"; };
+		D6BA21C9219D9D1E0004E726 /* gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray.png; sourceTree = "<group>"; };
+		D6BA21CA219D9D280004E726 /* greenv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenv.png; sourceTree = "<group>"; };
+		D6BA21CB219D9D2B0004E726 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
+		D6BC69A02191C09D008B106F /* emptycheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptycheck.png; sourceTree = "<group>"; };
+		D6BF192F21C516F500AFA12C /* LanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
+		D6BF193121C5235400AFA12C /* company1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = company1.png; sourceTree = "<group>"; };
+		D6C0E7ED2252128C00204DF0 /* CBInspectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBInspectionViewController.swift; sourceTree = "<group>"; };
+		D6C2604C217720930068C8E8 /* VendorRepairListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorRepairListViewController.swift; sourceTree = "<group>"; };
+		D6C26053217749540068C8E8 /* NewDocumentLibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDocumentLibraryViewController.swift; sourceTree = "<group>"; };
+		D6D1CBEA218DD07B00FCA05A /* downnarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downnarrow.png; sourceTree = "<group>"; };
+		D6E52DED21E7039900ECD361 /* 360bets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 360bets.png; sourceTree = "<group>"; };
+		D6E52DEF21E7044600ECD361 /* mybetslogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mybetslogin.png; sourceTree = "<group>"; };
+		D6E52DF121E712AA00ECD361 /* new360bets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new360bets.png; sourceTree = "<group>"; };
+		D6E7485521A7D20F00C6D63D /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		D6E7485721A7D2A200C6D63D /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E96989226EEC9A0003DAE8 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		D6EFEEA4219BD70D00185134 /* SuperSelectBuildingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperSelectBuildingViewController.swift; sourceTree = "<group>"; };
+		D6EFEEA6219BFB8100185134 /* SuperDefaultInspectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperDefaultInspectionViewController.swift; sourceTree = "<group>"; };
+		D6EFEEA8219C294800185134 /* graycheckbox1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graycheckbox1.png; sourceTree = "<group>"; };
+		D6EFEEA9219C294F00185134 /* graycheckedBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graycheckedBox.png; sourceTree = "<group>"; };
+		D6EFEEAC219C4F2400185134 /* SuperDefaultEfficiencyTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperDefaultEfficiencyTestViewController.swift; sourceTree = "<group>"; };
+		D6F3B10621E36BC600AF8C35 /* dl1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dl1.png; sourceTree = "<group>"; };
+		D6F3B10721E36BC700AF8C35 /* dl3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dl3.png; sourceTree = "<group>"; };
+		D6F3B10821E36BC700AF8C35 /* dl2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dl2.png; sourceTree = "<group>"; };
+		D6F410BD218442BC001FDF03 /* EditUserManagemetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserManagemetViewController.swift; sourceTree = "<group>"; };
+		D6F410BF21845531001FDF03 /* view2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = view2.png; sourceTree = "<group>"; };
+		D6F410C021845531001FDF03 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		D6F410C121845542001FDF03 /* edit2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit2.png; sourceTree = "<group>"; };
+		D6F62B6521817B8A00997BC4 /* CompanyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDetailViewController.swift; sourceTree = "<group>"; };
+		D6F62B6721819B7F00997BC4 /* CBMechanicalRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBMechanicalRoomViewController.swift; sourceTree = "<group>"; };
+		D6F62B692181A3DB00997BC4 /* AddCBMechanicalRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCBMechanicalRoomViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185EA51720A940EC00884625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B5FD4921B7E8BF00331DE5 /* MobileCoreServices.framework in Frameworks */,
+				D6E7485821A7D2A200C6D63D /* FMDB.framework in Frameworks */,
+				D6E7485621A7D20F00C6D63D /* libsqlite3.0.tbd in Frameworks */,
+				1867657620C80D36007F0E6C /* AVFoundation.framework in Frameworks */,
+				1867657420C80D27007F0E6C /* AVKit.framework in Frameworks */,
+				2558B49D54BC0D0B70B6B1A5 /* Pods_Rathe_Associates.framework in Frameworks */,
+				186BA16520B6E71E001ABA00 /* StoreKit.framework in Frameworks */,
+				187E815820B847860071D38E /* libPrinterSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18073CDE211EAED6003753EC /* Subscriptions */ = {
+			isa = PBXGroup;
+			children = (
+				1870B97420AAECAB009EB200 /* SubscriptionListViewController.swift */,
+				1870B96E20AADB82009EB200 /* AddSubScriptionViewController.swift */,
+				D60B6A39218329C600E6D81F /* EditSubscriptionViewController.swift */,
+				D60B6A3B21832A6200E6D81F /* SubscriptionDetailViewController.swift */,
+			);
+			path = Subscriptions;
+			sourceTree = "<group>";
+		};
+		1826EBA6211EB102009D3CC5 /* User Management */ = {
+			isa = PBXGroup;
+			children = (
+				185403C620AE865A007F01D3 /* UserListingViewController.swift */,
+				1870B97A20AAFE3F009EB200 /* AddUserViewController.swift */,
+				1826EBA7211EB296009D3CC5 /* UserManagementDetailViewController.swift */,
+				D6F410BD218442BC001FDF03 /* EditUserManagemetViewController.swift */,
+			);
+			path = "User Management";
+			sourceTree = "<group>";
+		};
+		185EA51120A940EC00884625 = {
+			isa = PBXGroup;
+			children = (
+				D6A49B3E2271C8D200003FBA /* FMDatabase2.sqlite */,
+				185EA51C20A940ED00884625 /* Rathe_Associates */,
+				185EA51B20A940ED00884625 /* Products */,
+				586FB7A8F17688885D30B253 /* Pods */,
+				E9FC0129CB40DE9ED86142BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		185EA51B20A940ED00884625 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185EA51A20A940ED00884625 /* MY BETS 360.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185EA51C20A940ED00884625 /* Rathe_Associates */ = {
+			isa = PBXGroup;
+			children = (
+				D6C26050217740D10068C8E8 /* Images */,
+				187E689420C2CF2400BD326B /* RA_Model */,
+				187E689320C2CEB900BD326B /* RA_Storyboards */,
+				1870B96B20AAC111009EB200 /* RA_View */,
+				1870B96A20AAC0F2009EB200 /* RA_Controllers */,
+				186BA16320B6E70E001ABA00 /* Rathe_Associates.entitlements */,
+				187E815620B847780071D38E /* PrinterSDK.h */,
+				187E815720B847850071D38E /* libPrinterSDK.a */,
+				D6890E4021B95149000A240F /* PEPhotoCropEditor.bundle */,
+			);
+			path = Rathe_Associates;
+			sourceTree = "<group>";
+		};
+		1870B96A20AAC0F2009EB200 /* RA_Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				187E815520B843130071D38E /* Rathe_Associates_BridgingFile.h */,
+				18FF7CA9211B2040000313DD /* IntitialViewControllers */,
+				18FF7CA5211B1C7D000313DD /* Buildings */,
+				18FF7CA7211B1FD0000313DD /* Custom Inspection Sheets */,
+				18FF7CA8211B2006000313DD /* Equipment Tests */,
+				D6B3EC59218833EB0061DC02 /* CBMechanicalRoom */,
+				D6B3EC5B21883AAC0061DC02 /* SuperMechanicalRoom */,
+				D6B3EC5A218835270061DC02 /* Equipment */,
+				1895A1A1211C65DB00792DCD /* Notifications */,
+				18FF7CA2211B1855000313DD /* Asset Management */,
+				1895A198211C60FC00792DCD /* Reports */,
+				1895A1A2211C67C200792DCD /* Company Settings */,
+				1826EBA6211EB102009D3CC5 /* User Management */,
+				18073CDE211EAED6003753EC /* Subscriptions */,
+				1895A1A0211C653B00792DCD /* Sync */,
+			);
+			path = RA_Controllers;
+			sourceTree = "<group>";
+		};
+		1870B96B20AAC111009EB200 /* RA_View */ = {
+			isa = PBXGroup;
+			children = (
+				185EA53320A9583700884625 /* Rathe_AssociatesXibClassFiles.swift */,
+				185EA52F20A956F700884625 /* Rathe_Associates_Xib.xib */,
+				18FF7CA3211B1B4D000313DD /* Rathe_Associates_Xibs_II.xib */,
+			);
+			path = RA_View;
+			sourceTree = "<group>";
+		};
+		187E689320C2CEB900BD326B /* RA_Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				185EA52120A940ED00884625 /* Main.storyboard */,
+				18DF3C2C20A995F800BFD6A9 /* SubMain.storyboard */,
+				185EA52620A940F600884625 /* LaunchScreen.storyboard */,
+				D633D24D21807DBE00BA3533 /* super.storyboard */,
+			);
+			path = RA_Storyboards;
+			sourceTree = "<group>";
+		};
+		187E689420C2CF2400BD326B /* RA_Model */ = {
+			isa = PBXGroup;
+			children = (
+				185EA52420A940F600884625 /* Assets.xcassets */,
+				1870B96720AABB1A009EB200 /* GlobalFile_RathAssociates.swift */,
+				186C65A020B049650004250D /* ApisClass_Rath_Associates.swift */,
+				185EA51D20A940ED00884625 /* AppDelegate.swift */,
+				185EA52920A940F600884625 /* Info.plist */,
+			);
+			path = RA_Model;
+			sourceTree = "<group>";
+		};
+		1895A198211C60FC00792DCD /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				D60B6A372182F35700E6D81F /* SignInLogReportViewController.swift */,
+				18A3E83820CA5D0000246D2A /* AuditReportViewController.swift */,
+				1895A199211C613300792DCD /* EqipmentTestReportViewController.swift */,
+				1895A19B211C638300792DCD /* InspectionReportViewController.swift */,
+				1895A19D211C63EA00792DCD /* RepairNCostReportViewController.swift */,
+				D6C0E7ED2252128C00204DF0 /* CBInspectionViewController.swift */,
+			);
+			path = Reports;
+			sourceTree = "<group>";
+		};
+		1895A1A0211C653B00792DCD /* Sync */ = {
+			isa = PBXGroup;
+			children = (
+				186F234320BC39B700B3EDF2 /* SyncYourDataViewController.swift */,
+				18C57980213673CA00FAE761 /* SyncDataNewViewController.swift */,
+			);
+			path = Sync;
+			sourceTree = "<group>";
+		};
+		1895A1A1211C65DB00792DCD /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				1895A196211C591E00792DCD /* NotificationViewController.swift */,
+				D60B6A352182E23B00E6D81F /* NotificationDetailViewController.swift */,
+				1810C360212D74B4000B48E2 /* AddNotificationViewController.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		1895A1A2211C67C200792DCD /* Company Settings */ = {
+			isa = PBXGroup;
+			children = (
+				18A97F78212C2D7400967B56 /* CompaniesListingViewController.swift */,
+				18A97F7A212C358000967B56 /* AddCompanyViewController.swift */,
+				D633D2532180A5FE00BA3533 /* EditCompanyViewController.swift */,
+				D6F62B6521817B8A00997BC4 /* CompanyDetailViewController.swift */,
+			);
+			path = "Company Settings";
+			sourceTree = "<group>";
+		};
+		18FF7CA2211B1855000313DD /* Asset Management */ = {
+			isa = PBXGroup;
+			children = (
+				185AAAC820AD952400324AEE /* AddMechanicalRoomViewController.swift */,
+				185AAAC620AD8F9300324AEE /* MechanicalRoomListingViewController.swift */,
+				18FF7CA0211B181C000313DD /* MechanicalRoomDetailViewController.swift */,
+				1895A194211C056F00792DCD /* EditMechanicalRoomViewController.swift */,
+				1863946520A9C3DF0050AE93 /* InspectionSheetViewController.swift */,
+				1870B97C20AB0149009EB200 /* DocumentListViewController.swift */,
+				184C2E43212ACF7600B99C1F /* EditNewMechanicalRoomViewController.swift */,
+				184C2E45212AE94800B99C1F /* VendorRepairViewController.swift */,
+				D6954C852176027C000064FC /* BoilerRoomViewController.swift */,
+			);
+			path = "Asset Management";
+			sourceTree = "<group>";
+		};
+		18FF7CA5211B1C7D000313DD /* Buildings */ = {
+			isa = PBXGroup;
+			children = (
+				1870B95F20AA9E2A009EB200 /* BuildingListViewController.swift */,
+				1870B97620AAF3DB009EB200 /* AddBuildingViewController.swift */,
+				18F8BE2E211858F7003A7965 /* BuildingDetailViewController.swift */,
+				180EB6D921285516000023A6 /* EditBuildingViewController.swift */,
+				D61CB905217EE352003D2F55 /* WarningViewController.swift */,
+				D61DD5352248A0BF00318121 /* BuildingDocumentViewController.swift */,
+			);
+			path = Buildings;
+			sourceTree = "<group>";
+		};
+		18FF7CA7211B1FD0000313DD /* Custom Inspection Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				186EC40520D929540090CB17 /* AddCustomInspectionSheetViewController.swift */,
+				186EC40320D9152F0090CB17 /* CustomInspectionSheetViewController.swift */,
+				D61CB907217F3BA9003D2F55 /* EditCustomInspectionSheetViewController.swift */,
+				D61CB909217F422C003D2F55 /* DetailCustomInspectionSheetViewController.swift */,
+				D61CB90B217F4ADC003D2F55 /* InitialPreviewController.swift */,
+				D6B3EC572188176B0061DC02 /* SaveAsPopupViewController.swift */,
+			);
+			path = "Custom Inspection Sheets";
+			sourceTree = "<group>";
+		};
+		18FF7CA8211B2006000313DD /* Equipment Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18F8BE322118795A003A7965 /* EquipmentTestDetailViewController.swift */,
+				18F8BE302118762B003A7965 /* EquipmentTestsViewController.swift */,
+				D607881F22005F4B00162AEC /* AddEquipmentTestViewController.swift */,
+				D607882122005F9800162AEC /* EditEquipmentTestViewController.swift */,
+			);
+			path = "Equipment Tests";
+			sourceTree = "<group>";
+		};
+		18FF7CA9211B2040000313DD /* IntitialViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D687C46E217D8FB20082E2C2 /* SignInViewController.swift */,
+				D67423EC217AF45100A479A5 /* ForgotPasswordViewController.swift */,
+				185EA53B20A9694400884625 /* RegistrationViewController.swift */,
+				185EA53F20A9783A00884625 /* ThankUViewController.swift */,
+				18DF3C2A20A9954A00BFD6A9 /* MenuViewController.swift */,
+				D687C470217D93E60082E2C2 /* DashboardViewController.swift */,
+				D633D2512180800400BA3533 /* SuperMenuViewController.swift */,
+				D633D24F21807FB300BA3533 /* SuperDashboardViewController.swift */,
+				D6BF192F21C516F500AFA12C /* LanguageViewController.swift */,
+				D6E96989226EEC9A0003DAE8 /* MyProfileViewController.swift */,
+				D64A1C26227045A300EAECC6 /* SyncLoaderViewController.swift */,
+			);
+			path = IntitialViewControllers;
+			sourceTree = "<group>";
+		};
+		586FB7A8F17688885D30B253 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				332FC4511239A00F15F4AB59 /* Pods-Rathe_Associates.debug.xcconfig */,
+				52BE7945AD4A0DA224E4F9CF /* Pods-Rathe_Associates.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6B3EC59218833EB0061DC02 /* CBMechanicalRoom */ = {
+			isa = PBXGroup;
+			children = (
+				D6F62B6721819B7F00997BC4 /* CBMechanicalRoomViewController.swift */,
+				D60B6A332182D86500E6D81F /* EditCBMechanicalRoomViewController.swift */,
+				D6F62B692181A3DB00997BC4 /* AddCBMechanicalRoomViewController.swift */,
+				D65043FB2181D268004D0F6F /* DetailCBMechanicalRoomViewController.swift */,
+				D61DD5372248A16A00318121 /* CBMechanicalScanEquipViewController.swift */,
+			);
+			path = CBMechanicalRoom;
+			sourceTree = "<group>";
+		};
+		D6B3EC5A218835270061DC02 /* Equipment */ = {
+			isa = PBXGroup;
+			children = (
+				184488DF21213E16004877FF /* EditAssetEquipmentViewController.swift */,
+				185403C820AE99C5007F01D3 /* AddEquipmentViewController.swift */,
+				1826EBAB211F09BD009D3CC5 /* EquipmentDetailViewController.swift */,
+				1870B97820AAF8D3009EB200 /* EquipmetManagementViewController.swift */,
+			);
+			path = Equipment;
+			sourceTree = "<group>";
+		};
+		D6B3EC5B21883AAC0061DC02 /* SuperMechanicalRoom */ = {
+			isa = PBXGroup;
+			children = (
+				D687C474217DAA150082E2C2 /* EquipmentViewController.swift */,
+				18999887219AB384006C52C0 /* DocumentViewController.swift */,
+				18999885219AACB0006C52C0 /* DocumentCellsTableViewCell.swift */,
+				1870B96520AAB9E0009EB200 /* AddRepairViewController.swift */,
+				D6C2604C217720930068C8E8 /* VendorRepairListViewController.swift */,
+				D6C26053217749540068C8E8 /* NewDocumentLibraryViewController.swift */,
+				1863946320A9BEE20050AE93 /* SignInLogViewController.swift */,
+				1870B96120AAA947009EB200 /* AddInspectionSheetViewController.swift */,
+				D6954C832175CCB7000064FC /* EfficentyTestViewController.swift */,
+				D687C472217D97AF0082E2C2 /* MechanicalRoomDashboardViewController.swift */,
+				D687C46A217D8D760082E2C2 /* MechanicalRoomSignInViewController.swift */,
+				D6EFEEA4219BD70D00185134 /* SuperSelectBuildingViewController.swift */,
+				D6EFEEA6219BFB8100185134 /* SuperDefaultInspectionViewController.swift */,
+				D6EFEEAC219C4F2400185134 /* SuperDefaultEfficiencyTestViewController.swift */,
+				D62695A9219FF591007293FD /* ScanQRCodeReaderViewController.swift */,
+			);
+			path = SuperMechanicalRoom;
+			sourceTree = "<group>";
+		};
+		D6C26050217740D10068C8E8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D67423EF217B157C00A479A5 /* icons8-back-64.png */,
+				D67423F2217B15D100A479A5 /* icons8-chevron-up-60-2.png */,
+				D63673DF224B36CF00803BC4 /* lsquare.png */,
+				D64AAEC921C38E54003A5ADC /* popupdropdown.png */,
+				D6F3B10621E36BC600AF8C35 /* dl1.png */,
+				D6F3B10821E36BC700AF8C35 /* dl2.png */,
+				D66B7B0F21E38B0E008D4390 /* doc_icon.jpg */,
+				D6E52DF121E712AA00ECD361 /* new360bets.png */,
+				D6E52DEF21E7044600ECD361 /* mybetslogin.png */,
+				D6F3B10721E36BC700AF8C35 /* dl3.png */,
+				D687C484217DF4950082E2C2 /* check-box.png */,
+				D6BF193121C5235400AFA12C /* company1.png */,
+				D6E52DED21E7039900ECD361 /* 360bets.png */,
+				D65B6EA021C8C8CE00463A12 /* audit.png */,
+				D65B6EA221C8C8E500463A12 /* audit2.png */,
+				D65B6E9D21C8C8A800463A12 /* effic.png */,
+				D65B6EA121C8C8E400463A12 /* equiptest.png */,
+				D65B6E9E21C8C8B300463A12 /* notification.png */,
+				D65B6E9F21C8C8C100463A12 /* repair.png */,
+				D65B6EAD21C9287100463A12 /* delete2.png */,
+				D65B6EAC21C9286900463A12 /* user2.png */,
+				D65B6E9C21C8C89E00463A12 /* sign.png */,
+				D69BF33D21A9185300325E1D /* upssscroll.png */,
+				D6F410C121845542001FDF03 /* edit2.png */,
+				D6D1CBEA218DD07B00FCA05A /* downnarrow.png */,
+				D695EED221A03D7E007EC717 /* square.png */,
+				D69BF33921A9163A00325E1D /* downscroll.png */,
+				D6BC69A02191C09D008B106F /* emptycheck.png */,
+				D6BA21C9219D9D1E0004E726 /* gray.png */,
+				D6BA21CA219D9D280004E726 /* greenv.png */,
+				D6BA21C8219D9D1C0004E726 /* redv.png */,
+				D69BF33621A90EB200325E1D /* upscroll.png */,
+				D6BA21CB219D9D2B0004E726 /* yellow.png */,
+				D6F410C021845531001FDF03 /* setting.png */,
+				D6EFEEA8219C294800185134 /* graycheckbox1.png */,
+				D6EFEEA9219C294F00185134 /* graycheckedBox.png */,
+				D6F410BF21845531001FDF03 /* view2.png */,
+				D687C480217DEF820082E2C2 /* note1.png */,
+				D687C476217DEEA90082E2C2 /* profile1.png */,
+				D687C479217DEF550082E2C2 /* uparrow.png */,
+				D67423EE217B157B00A479A5 /* icons8-sort-down-filled-100-2.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		E9FC0129CB40DE9ED86142BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6B5FD4821B7E8BF00331DE5 /* MobileCoreServices.framework */,
+				D6E7485721A7D2A200C6D63D /* FMDB.framework */,
+				D6E7485521A7D20F00C6D63D /* libsqlite3.0.tbd */,
+				1867657520C80D35007F0E6C /* AVFoundation.framework */,
+				1867657320C80D26007F0E6C /* AVKit.framework */,
+				186BA16420B6E71E001ABA00 /* StoreKit.framework */,
+				2A302ABF5DB105C4C6382D70 /* Pods_Rathe_Associates.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185EA51920A940EC00884625 /* Rathe_Associates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185EA52C20A940F600884625 /* Build configuration list for PBXNativeTarget "Rathe_Associates" */;
+			buildPhases = (
+				2BA8940A5A3051A66B6BC42A /* [CP] Check Pods Manifest.lock */,
+				185EA51620A940EC00884625 /* Sources */,
+				185EA51720A940EC00884625 /* Frameworks */,
+				185EA51820A940EC00884625 /* Resources */,
+				595EC5C23CC08D584A08CE2E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rathe_Associates;
+			productName = Rathe_Associates;
+			productReference = 185EA51A20A940ED00884625 /* MY BETS 360.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185EA51220A940EC00884625 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = zonupTechnologies;
+				TargetAttributes = {
+					185EA51920A940EC00884625 = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 185EA51520A940EC00884625 /* Build configuration list for PBXProject "Rathe_Associates" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+			);
+			mainGroup = 185EA51120A940EC00884625;
+			productRefGroup = 185EA51B20A940ED00884625 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185EA51920A940EC00884625 /* Rathe_Associates */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185EA51820A940EC00884625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F3B10921E36BC800AF8C35 /* dl1.png in Resources */,
+				D6890E4121B95157000A240F /* PEPhotoCropEditor.bundle in Resources */,
+				D69BF33821A90EB600325E1D /* upscroll.png in Resources */,
+				18DF3C2D20A995F800BFD6A9 /* SubMain.storyboard in Resources */,
+				D65B6EB121C9287600463A12 /* delete2.png in Resources */,
+				D6E52DEE21E7039A00ECD361 /* 360bets.png in Resources */,
+				D6F410C421845548001FDF03 /* edit2.png in Resources */,
+				D6BA21CF219D9D2F0004E726 /* yellow.png in Resources */,
+				D65B6EA421C8C8E600463A12 /* effic.png in Resources */,
+				D64AAECA21C38E59003A5ADC /* popupdropdown.png in Resources */,
+				18FF7CA4211B1B4D000313DD /* Rathe_Associates_Xibs_II.xib in Resources */,
+				D6F410C221845548001FDF03 /* view2.png in Resources */,
+				D6D1CBEB218DD07B00FCA05A /* downnarrow.png in Resources */,
+				D687C481217DEF8D0082E2C2 /* note1.png in Resources */,
+				D6F3B10A21E36BC800AF8C35 /* dl3.png in Resources */,
+				D6E52DF021E7044900ECD361 /* mybetslogin.png in Resources */,
+				D687C485217DF4A00082E2C2 /* check-box.png in Resources */,
+				D6F3B10B21E36BC800AF8C35 /* dl2.png in Resources */,
+				D695EED321A03D81007EC717 /* square.png in Resources */,
+				D67423F0217B158300A479A5 /* icons8-sort-down-filled-100-2.png in Resources */,
+				D65B6EB021C9287600463A12 /* user2.png in Resources */,
+				D65B6EA621C8C8E600463A12 /* repair.png in Resources */,
+				D6EFEEAB219C295000185134 /* graycheckedBox.png in Resources */,
+				D6E52DF221E712AC00ECD361 /* new360bets.png in Resources */,
+				D66B7B1021E38B0F008D4390 /* doc_icon.jpg in Resources */,
+				D687C47E217DEF5E0082E2C2 /* uparrow.png in Resources */,
+				D65B6EA321C8C8E600463A12 /* sign.png in Resources */,
+				D69BF33B21A9163F00325E1D /* downscroll.png in Resources */,
+				D65B6EA821C8C8E600463A12 /* equiptest.png in Resources */,
+				185EA52820A940F600884625 /* LaunchScreen.storyboard in Resources */,
+				18F8BE552118A54C003A7965 /* Assets.xcassets in Resources */,
+				D633D24E21807DBE00BA3533 /* super.storyboard in Resources */,
+				D6BC69A12191C09E008B106F /* emptycheck.png in Resources */,
+				D67423F1217B158300A479A5 /* icons8-back-64.png in Resources */,
+				D65B6EA521C8C8E600463A12 /* notification.png in Resources */,
+				D65B6EA921C8C8E600463A12 /* audit2.png in Resources */,
+				D687C47B217DEF5E0082E2C2 /* profile1.png in Resources */,
+				D6BA21CD219D9D2F0004E726 /* gray.png in Resources */,
+				D6F410C321845548001FDF03 /* setting.png in Resources */,
+				D67423F3217B15D900A479A5 /* icons8-chevron-up-60-2.png in Resources */,
+				185EA53020A956F800884625 /* Rathe_Associates_Xib.xib in Resources */,
+				D6BA21CC219D9D2F0004E726 /* redv.png in Resources */,
+				D6BA21CE219D9D2F0004E726 /* greenv.png in Resources */,
+				D65B6EA721C8C8E600463A12 /* audit.png in Resources */,
+				D63673E0224B36E100803BC4 /* lsquare.png in Resources */,
+				185EA52320A940ED00884625 /* Main.storyboard in Resources */,
+				D6A49B3F2271C8D400003FBA /* FMDatabase2.sqlite in Resources */,
+				D6EFEEAA219C295000185134 /* graycheckbox1.png in Resources */,
+				D69BF33E21A9185600325E1D /* upssscroll.png in Resources */,
+				D6BF193221C5235700AFA12C /* company1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BA8940A5A3051A66B6BC42A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rathe_Associates-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		595EC5C23CC08D584A08CE2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rathe_Associates/Pods-Rathe_Associates-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DXPopover/DXPopover.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/KxMenu/KxMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/PEPhotoCropEditor/PEPhotoCropEditor.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SWRevealViewController/SWRevealViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/ScrollingFollowView/ScrollingFollowView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftHEXColors/SwiftHEXColors.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DXPopover.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KxMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PEPhotoCropEditor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWRevealViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScrollingFollowView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHEXColors.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStoreKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rathe_Associates/Pods-Rathe_Associates-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185EA51620A940EC00884625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185EA53420A9583700884625 /* Rathe_AssociatesXibClassFiles.swift in Sources */,
+				186EC40420D915300090CB17 /* CustomInspectionSheetViewController.swift in Sources */,
+				D60B6A362182E23B00E6D81F /* NotificationDetailViewController.swift in Sources */,
+				D61CB90C217F4ADC003D2F55 /* InitialPreviewController.swift in Sources */,
+				1863946620A9C3DF0050AE93 /* InspectionSheetViewController.swift in Sources */,
+				D60B6A342182D86600E6D81F /* EditCBMechanicalRoomViewController.swift in Sources */,
+				186C65A120B049650004250D /* ApisClass_Rath_Associates.swift in Sources */,
+				184488E021213E16004877FF /* EditAssetEquipmentViewController.swift in Sources */,
+				1895A195211C056F00792DCD /* EditMechanicalRoomViewController.swift in Sources */,
+				185AAAC720AD8F9300324AEE /* MechanicalRoomListingViewController.swift in Sources */,
+				D6BF193021C516F500AFA12C /* LanguageViewController.swift in Sources */,
+				D6EFEEA5219BD70D00185134 /* SuperSelectBuildingViewController.swift in Sources */,
+				185EA54020A9783A00884625 /* ThankUViewController.swift in Sources */,
+				186EC40620D929540090CB17 /* AddCustomInspectionSheetViewController.swift in Sources */,
+				18C57981213673CB00FAE761 /* SyncDataNewViewController.swift in Sources */,
+				180EB6DA21285516000023A6 /* EditBuildingViewController.swift in Sources */,
+				D607882022005F4C00162AEC /* AddEquipmentTestViewController.swift in Sources */,
+				1870B97B20AAFE3F009EB200 /* AddUserViewController.swift in Sources */,
+				1810C361212D74B4000B48E2 /* AddNotificationViewController.swift in Sources */,
+				185AAAC920AD952400324AEE /* AddMechanicalRoomViewController.swift in Sources */,
+				D6954C842175CCB7000064FC /* EfficentyTestViewController.swift in Sources */,
+				1870B97520AAECAC009EB200 /* SubscriptionListViewController.swift in Sources */,
+				1870B97720AAF3DB009EB200 /* AddBuildingViewController.swift in Sources */,
+				18F8BE312118762C003A7965 /* EquipmentTestsViewController.swift in Sources */,
+				184C2E44212ACF7600B99C1F /* EditNewMechanicalRoomViewController.swift in Sources */,
+				1895A197211C591E00792DCD /* NotificationViewController.swift in Sources */,
+				1870B97D20AB0149009EB200 /* DocumentListViewController.swift in Sources */,
+				D61CB906217EE352003D2F55 /* WarningViewController.swift in Sources */,
+				D67423ED217AF45100A479A5 /* ForgotPasswordViewController.swift in Sources */,
+				D687C46F217D8FB20082E2C2 /* SignInViewController.swift in Sources */,
+				D61DD5382248A16A00318121 /* CBMechanicalScanEquipViewController.swift in Sources */,
+				D633D2542180A5FE00BA3533 /* EditCompanyViewController.swift in Sources */,
+				1895A19C211C638300792DCD /* InspectionReportViewController.swift in Sources */,
+				18DF3C2B20A9954A00BFD6A9 /* MenuViewController.swift in Sources */,
+				1870B97920AAF8D3009EB200 /* EquipmetManagementViewController.swift in Sources */,
+				D6B3EC582188176B0061DC02 /* SaveAsPopupViewController.swift in Sources */,
+				186F234420BC39B700B3EDF2 /* SyncYourDataViewController.swift in Sources */,
+				D62695AA219FF591007293FD /* ScanQRCodeReaderViewController.swift in Sources */,
+				1863946420A9BEE30050AE93 /* SignInLogViewController.swift in Sources */,
+				D633D25021807FB300BA3533 /* SuperDashboardViewController.swift in Sources */,
+				1826EBA8211EB296009D3CC5 /* UserManagementDetailViewController.swift in Sources */,
+				18999886219AACB1006C52C0 /* DocumentCellsTableViewCell.swift in Sources */,
+				1895A19A211C613300792DCD /* EqipmentTestReportViewController.swift in Sources */,
+				18F8BE2F211858F7003A7965 /* BuildingDetailViewController.swift in Sources */,
+				18A3E83920CA5D0000246D2A /* AuditReportViewController.swift in Sources */,
+				185403C920AE99C5007F01D3 /* AddEquipmentViewController.swift in Sources */,
+				D6C0E7EE2252128C00204DF0 /* CBInspectionViewController.swift in Sources */,
+				1870B96020AA9E2A009EB200 /* BuildingListViewController.swift in Sources */,
+				185EA51E20A940ED00884625 /* AppDelegate.swift in Sources */,
+				1870B96620AAB9E0009EB200 /* AddRepairViewController.swift in Sources */,
+				1870B96820AABB1A009EB200 /* GlobalFile_RathAssociates.swift in Sources */,
+				D65043FC2181D268004D0F6F /* DetailCBMechanicalRoomViewController.swift in Sources */,
+				D6E9698A226EEC9A0003DAE8 /* MyProfileViewController.swift in Sources */,
+				D6EFEEA7219BFB8200185134 /* SuperDefaultInspectionViewController.swift in Sources */,
+				D6C2604D217720930068C8E8 /* VendorRepairListViewController.swift in Sources */,
+				1826EBAC211F09BD009D3CC5 /* EquipmentDetailViewController.swift in Sources */,
+				D60B6A3A218329C700E6D81F /* EditSubscriptionViewController.swift in Sources */,
+				D687C473217D97AF0082E2C2 /* MechanicalRoomDashboardViewController.swift in Sources */,
+				D6F410BE218442BD001FDF03 /* EditUserManagemetViewController.swift in Sources */,
+				D61DD5362248A0BF00318121 /* BuildingDocumentViewController.swift in Sources */,
+				D6C26054217749540068C8E8 /* NewDocumentLibraryViewController.swift in Sources */,
+				D60B6A382182F35700E6D81F /* SignInLogReportViewController.swift in Sources */,
+				D61CB908217F3BA9003D2F55 /* EditCustomInspectionSheetViewController.swift in Sources */,
+				D687C475217DAA160082E2C2 /* EquipmentViewController.swift in Sources */,
+				18A97F79212C2D7500967B56 /* CompaniesListingViewController.swift in Sources */,
+				D6F62B6821819B7F00997BC4 /* CBMechanicalRoomViewController.swift in Sources */,
+				D61CB90A217F422C003D2F55 /* DetailCustomInspectionSheetViewController.swift in Sources */,
+				D60B6A3C21832A6200E6D81F /* SubscriptionDetailViewController.swift in Sources */,
+				D6954C862176027C000064FC /* BoilerRoomViewController.swift in Sources */,
+				18999888219AB384006C52C0 /* DocumentViewController.swift in Sources */,
+				D6EFEEAD219C4F2500185134 /* SuperDefaultEfficiencyTestViewController.swift in Sources */,
+				185403C720AE865A007F01D3 /* UserListingViewController.swift in Sources */,
+				1870B96220AAA948009EB200 /* AddInspectionSheetViewController.swift in Sources */,
+				D687C471217D93E60082E2C2 /* DashboardViewController.swift in Sources */,
+				185EA53C20A9694500884625 /* RegistrationViewController.swift in Sources */,
+				18F8BE332118795A003A7965 /* EquipmentTestDetailViewController.swift in Sources */,
+				1870B96F20AADB82009EB200 /* AddSubScriptionViewController.swift in Sources */,
+				D687C46B217D8D760082E2C2 /* MechanicalRoomSignInViewController.swift in Sources */,
+				D6F62B6621817B8A00997BC4 /* CompanyDetailViewController.swift in Sources */,
+				18FF7CA1211B181E000313DD /* MechanicalRoomDetailViewController.swift in Sources */,
+				1895A19E211C63EA00792DCD /* RepairNCostReportViewController.swift in Sources */,
+				D6F62B6A2181A3DB00997BC4 /* AddCBMechanicalRoomViewController.swift in Sources */,
+				D633D2522180800400BA3533 /* SuperMenuViewController.swift in Sources */,
+				D607882222005F9800162AEC /* EditEquipmentTestViewController.swift in Sources */,
+				18A97F7B212C358100967B56 /* AddCompanyViewController.swift in Sources */,
+				184C2E46212AE94800B99C1F /* VendorRepairViewController.swift in Sources */,
+				D64A1C27227045A400EAECC6 /* SyncLoaderViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		185EA52120A940ED00884625 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185EA52220A940ED00884625 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		185EA52620A940F600884625 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185EA52720A940F600884625 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		185EA52A20A940F600884625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		185EA52B20A940F600884625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185EA52D20A940F600884625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 332FC4511239A00F15F4AB59 /* Pods-Rathe_Associates.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Rathe_Associates/Rathe_Associates.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7AVB9PH7K;
+				INFOPLIST_FILE = "$(SRCROOT)/Rathe_Associates/RA_Model/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Rathe_Associates",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RatheAssociates.RA;
+				PRODUCT_NAME = "MY BETS 360";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Rathe_Associates/RA_Controllers/Rathe_Associates_BridgingFile.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		185EA52E20A940F600884625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52BE7945AD4A0DA224E4F9CF /* Pods-Rathe_Associates.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Rathe_Associates/Rathe_Associates.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7AVB9PH7K;
+				INFOPLIST_FILE = "$(SRCROOT)/Rathe_Associates/RA_Model/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Rathe_Associates",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RatheAssociates.RA;
+				PRODUCT_NAME = "MY BETS 360";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Rathe_Associates/RA_Controllers/Rathe_Associates_BridgingFile.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185EA51520A940EC00884625 /* Build configuration list for PBXProject "Rathe_Associates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185EA52A20A940F600884625 /* Debug */,
+				185EA52B20A940F600884625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185EA52C20A940F600884625 /* Build configuration list for PBXNativeTarget "Rathe_Associates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185EA52D20A940F600884625 /* Debug */,
+				185EA52E20A940F600884625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 185EA51220A940EC00884625 /* Project object */;
+}

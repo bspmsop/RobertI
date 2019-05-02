@@ -1,0 +1,79 @@
+/* 
+  Localizable.strings
+  Rathe_Associates
+
+  Created by nagamani on 15/12/18.
+  Copyright © 2018 zonupTechnologies. All rights reserved.
+ 
+ https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q= Room
+*/
+
+
+
+
+
+"Email" = "Email";
+"Password" = "Password";
+"SignIn" = "Sign In";
+"Forgotyourpassword?" = "Forgot your password?";
+"Building" = "Building";
+"SELECTBUILDING" = "SELECT BUILDING";
+
+
+
+
+"Search" = "खोज";
+"Building" = "बिल्डिंग";
+
+"Areyousurewanttologoutfromtheapp." = "क्या आप निश्चित रूप से ऐप से लॉगआउट करना चाहते हैं";
+"SIGNIN" = "साइन इन करें";
+
+
+
+
+// Alert **************************************************
+
+"Alert!" = "अलर्ट!";
+"PleaseSelectMechanicalRoom" = "कृपया मैकेनिकल रूम चुनें";
+"PleaseSelectBuilding" = "कृपया बिल्डिंग  चुनें";
+"Yes" = "हां";
+"Ok" = "ठीक है";
+
+"NetworkAlert!" = "नेटवर्क अलर्ट!";
+"Nonetworkconnectionwouldyouliketouseofflinedata" = "कोई नेटवर्क कनेक्शन,  आप ऑफ़लाइन डेटा का उपयोग करना पसंद   करेंगे";
+"Cancel" = "रद्द करें";
+
+
+
+
+//  menu *************************************************
+
+"Dashboard" = "डैशबोर्ड";
+"Sync" = "सिंक";
+"Logout!" = "लॉगआउट!";
+
+
+
+//Super Select Building **************************************
+
+
+"SELECTBUILDING" = "बिल्डिंग चुनें";
+"SelectBuilding" = "बिल्डिंग चुनें";
+
+
+
+//Mechanical Room Sign In  **************************************
+
+"MechanicalRooms" = "मैकेनिकल कमरे";
+"SELECTMECHANICALROOM" = "मैकेनिकल रूम चुनें";
+"SelectMechanicalRoom" = "कृपया मैकेनिकल रूम चुनें";
+
+ 
+//SYNC  **************************************
+
+"Downloadallthedocuments(MechanicalRooms,Equipments,etc..)Whentheinternetaccessisavailable" = "सभी दस्तावेज डाउनलोड करें (मैकेनिकल रूम, उपकरण, आदि ..) जब इंटरनेट का उपयोग उपलब्ध है, तो सिंक करें";
+
+"Sync" = "सिंक";
+
+
+

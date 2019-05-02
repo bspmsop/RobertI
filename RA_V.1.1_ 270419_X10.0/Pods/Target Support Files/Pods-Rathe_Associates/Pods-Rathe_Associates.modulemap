@@ -1,0 +1,6 @@
+framework module Pods_Rathe_Associates {
+  umbrella header "Pods-Rathe_Associates-umbrella.h"
+
+  export *
+  module * { export * }
+}
